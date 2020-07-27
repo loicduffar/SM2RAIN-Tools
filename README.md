@@ -5,7 +5,7 @@ Extraction of time serie for N points.
 https://zenodo.org/record/3635932#.XoWskagzZhG
 
 The original code is amended and completed (LDU) for ...
-- work with python 3.x
+- working with python 3.x
 - process several pixels instead of just one (but also works for 1 single point)
 - modify the start and end years, and allow a simple copy and paste of the file name in Windows format (otherwise backslash is interpreted as a check character)
 - calculate monthly totals
