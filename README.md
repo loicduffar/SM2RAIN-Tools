@@ -18,5 +18,5 @@ Tutorial:
 - rename the files if necessary when the version number varies depending on the year, which is not dealt with in the code
 - copy-paste the name of the working folder in the "path" variable of the code
 - enter the start and end year in the year_start and year_end variables
-- enter the geographic coordinates of the pixels to extract in the lonlat_.txt file
+- enter in the lonlat_.txt file the geographic coordinates of the pixels to extract
 - Launch the script and wait until the end of the processing which takes about ten seconds or more depending on the number of pixels
