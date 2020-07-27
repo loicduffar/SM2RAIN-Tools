@@ -4,13 +4,14 @@ Extraction of time serie for N points.
 
 https://zenodo.org/record/3635932#.XoWskagzZhG
 
-The original code is amended and completed (LDU) for ...
-- working with python 3.x
-- process several pixels instead of just one (but also works for 1 single point)
-- modify the start and end years, and allow a simple copy and paste of the file name in Windows format (otherwise backslash is interpreted as a check character)
-- calculate monthly totals
-- extract daily and monthly data into a text file
+The original code is amended and completed (LDU):
+- Compatibilty with python 3.x
+- Process several pixels instead of just one (but also works for 1 single point)
+- Allow to modify the start and end years, and to copy and paste the file path
+- Calculate monthly totals
+- Extract daily and monthly data into a text file
 - (for fun) lengthen the time axis of the graphics and improve their aesthetics using the "seaborn" library (and add an interactivity menu to them, but does not work)
+- (in progress, non-functional), generate a text file containing ALL the global pixels, so that it can be opened in Qgis in a raster layer and thus easily select the pixels included in a watershed
 
 Tutorial:
 - place consecutive SM2RAIN annual files in the same folder (1 file per year from 2007 to 2019)
