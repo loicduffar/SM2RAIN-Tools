@@ -2,9 +2,9 @@
 Python code for reading SM2RAIN dataset (global daily precipitations between 2007 and 2019).
 Extraction of time serie for N points.
 
-https://zenodo.org/record/3635932#.XoWskagzZhG
+Data: https://zenodo.org/record/3635932#.XoWskagzZhG
 
-The original code is amended and completed (LDU):
+Original code by Luca Brocca, amended and completed by Loïc DUffar https://github.com/loicduffar/SM2RAIN-Tools:
 - Compatibilty with python 3.x
 - Process several pixels instead of just one (but also works for 1 single point)
 - Allow to modify the start and end years, and to copy and paste the file path
